@@ -16,7 +16,7 @@ def get_gemini_response(question, prompt):
     return response.text
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0.gj0kwwa.mongodb.net/cluster0")
+client = pymongo.MongoClient("mongodb+srv://***:***@cluster0.***.mongodb.net/cluster0")
 db = client["cluster0"]  # Replace "cluster0" with your database name
 
 # Collection attributes
